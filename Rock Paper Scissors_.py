@@ -48,3 +48,9 @@ while turns < 10:  # Play 10 rounds
 
 print("\n=== Final Score ===")
 print(f"You: {score} | Computer: {pc_score}")
+if score < pc_score:
+    print("You've lost , Better Luck Next time ")
+elif score == pc_score:
+    print("Draw")
+else:
+    print("Gongratulations You've won!!")
