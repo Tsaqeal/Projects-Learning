@@ -15,4 +15,4 @@ A simple, terminal-based Rock, Paper, Scissors game written in Python. Play a 10
 3. Run the script from your terminal:
 
 ```bash
-python rps.py
+Rock Paper Scissors_.py
