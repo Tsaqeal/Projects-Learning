@@ -1,18 +1,36 @@
-# Rock, Paper, Scissors (Python)
+# Python Projects - Learning Repository
 
-A simple, terminal-based Rock, Paper, Scissors game written in Python. Play a 10-round match against the computer!
+A collection of beginner-friendly, terminal-based Python games and projects.
 
-## Features
+---
 
-* **10-Round Match:** Keeps track of your score and the computer's score over 10 successful rounds.
-* **Input Validation:** Handles typos or invalid choices gracefully without wasting a turn.
-* **Case-Insensitive:** Automatically capitalizes your input so "rock", "ROCK", or "Rock" all work properly.
+## Included Projects
+
+### 1. Rock, Paper, Scissors (`Rock Paper Scissors_.py`)
+A interactive 10-round Rock, Paper, Scissors game against the computer.
+* **Features:**
+  * Plays 10 valid rounds keeping running scores.
+  * Handles invalid user choices without burning a turn.
+  * Case-insensitive input parsing (`rock`, `ROCK`, or `Rock`).
+
+### 2. Dice Roller (`#Roll Dice.py`)
+An interactive dice-rolling game where you roll against a computer opponent.
+* **Features:**
+  * Continuous gameplay loop (`while True`).
+  * Simulates two dice rolls per player using `random.randint()`.
+  * Compares total scores each round and tracks wins and ties.
+
+---
 
 ## How to Run
 
-1. Make sure you have Python installed on your computer.
-2. Download or clone this repository.
-3. Run the script from your terminal:
+1. Make sure Python 3 is installed on your computer.
+2. Clone or download this repository.
+3. Open a terminal inside the project folder and run either script:
 
 ```bash
-Rock Paper Scissors_.py
+# Run Rock, Paper, Scissors
+python "Rock Paper Scissors_.py"
+
+# Run Dice Roller
+python "#Roll Dice.py"
